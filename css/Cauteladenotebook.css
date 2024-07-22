@@ -141,6 +141,7 @@ label {
     border: 1px solid #CCCC;
     padding: 5px;
     outline: none;
+    border-radius: 5px;
 }
 
 textarea {
@@ -148,6 +149,7 @@ textarea {
     width: 100%;
     border: 1px solid #CCCC;
     outline: none;
+    border-radius: 5px;
 }
 
 textarea:hover {
@@ -160,6 +162,7 @@ select {
     padding: 5px;
     border: 1px solid #CCCC;
     outline: none;
+    border-radius: 5px;
 
 }
 
@@ -169,6 +172,7 @@ select {
     padding: 5px;
     border: 1px solid #CCCC;
     outline: none;
+    border-radius: 5px;
 
 }
 
@@ -178,6 +182,7 @@ select {
     border: 1px solid #CCCC;
     outline: none;
     text-transform: lowercase;
+    border-radius: 5px;
 }
 
 #cautelacontador {
