@@ -190,6 +190,7 @@ select {
     padding: 5px;
     border: 1px solid #CCCC;
     outline: none;
+    border-radius: 5px;
 
 }
 
