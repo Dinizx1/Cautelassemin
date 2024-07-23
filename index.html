@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,25 +48,34 @@
 
     <div class="Org">
         <h1 id="texto">Registrar Nova Cautela</h1>
-        <h2 id="subtexto">Selecione o tipo de cautela para realizar o registro: </h2>
+        <h3 id="subtexto">Preencha os campos para realizar emissão de nova cautela:  </h3>
 
-        <div class="cabecalho"> <!-- Campos de select (radios) -->
-            <label class="custom-radio">
-                <input type="radio" name="Cautela">
-                <span class="checkmark"></span> Cautelas de Notebook </label>
+        <div class="cabecalho">
+            <div class="cautela">
 
-            <label class="custom-radio">
-                <input type="radio" name="Cautela">
-                <span class="checkmark"></span> Cautelas de Tablet </label>
+                <div class="cautela1">
+                    <label for="Cautelas">N° da Cautela:</label>
+                    <input type="number" name="numero" id="cautelacontador">
+                </div>
+                <div class="cautela2">
 
-            <label class="custom-radio">
-                <input type="radio" name="Cautela">
-                <span class="checkmark"></span> Outros Tipos </label>
+                    <label>Tipo de cautela:</label>
+                    <select name="selectca" id="selectca">
+                        <option value="cargo">Clique para Selecionar</option>
+                        <option value="">Cautela para Tablets</option>
+                        <option value="">Cautela para Notebook</option>
+                        <option value="">Cautela para Desktop</option>
+                        <option value="">Cautela para Celular</option>
+                        <option value="">Cautela para Chip</option>
+                        <option value="">Cautela para Roteador</option>
+                        <option value="">Cautela para Estabilizador</option>
+                    </select>
+                </div>
+            </div>
+
         </div>
         <section class="labels"> <!-- Campos de digitação e preenchimento -->
 
-            <label for="Cautelas">N° da Cautela:</label>
-            <input type="number" name="numero" id="cautelacontador">
 
             <label for="recebedor">Recebedor:</label>
             <input type="text" name="nome" id="recebedor" placeholder="Nome">
