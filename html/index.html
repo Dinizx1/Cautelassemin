@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +28,7 @@
                     <a href="./novaCautela.html"> Nova Cautela</a>
                 </li>
                 <li class="Dropdown">
-                    <a href=""> Consultar Cautelas ⏷ </a>
+                    <a href=""> Relatórios ⏷ </a>
 
                     <!--SubMenu DropDown-->
                     <div class="Dropdown-menu">
@@ -62,17 +63,22 @@
                 <input type="radio" name="Cautela">
                 <span class="checkmark"></span> Outros Tipos </label>
         </div>
-        <div class="labels"> <!-- Campos de digitação e preenchimento -->
+        <section class="labels"> <!-- Campos de digitação e preenchimento -->
+
             <label for="Cautelas">N° da Cautela:</label>
             <input type="number" name="numero" id="cautelacontador">
+
             <label for="recebedor">Recebedor:</label>
-            <input type="text" name="nome" id="recebedor" placeholder="Nome do recebedor">
+            <input type="text" name="nome" id="recebedor" placeholder="Nome">
             <label for="emitente">Emitente:</label>
             <input type="text" name="nome" id="emitente" placeholder="Nome do emitente">
+
             <label for="email">E-mail:</label>
             <input type="e-mail" name="email" id="email" placeholder="Digite o e-mail">
+
             <label for="departamento">Departamento:</label>
             <input type="text" name="departamento" id="departamento">
+
             <label for="discriminacao">Discriminação:</label>
             <input type="text" name="discriminação" id="discriminacao">
             <label for="patrimonio">N° de Patrimônio:</label>
@@ -125,11 +131,11 @@
             <label for="Obser">Observações:</label>
             <textarea name="text" id="obser" placeholder="Digite uma observação"></textarea>
 
-        </div>
+        </section>
         <div class="container"> <!-- Botões -->
             <button class="button">Imprimir</button>
             <button class="button">Salvar</button>
-            <button class="button">Resetar</button>
+            <button class="button">Novo</button>
         </div>
     </div>
 

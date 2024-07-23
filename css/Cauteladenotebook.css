@@ -73,7 +73,7 @@ nav ul li a:hover {
     margin: 100px auto;
     padding-top: 10px;
     height: 100%;
-    width: 50%;
+    width: 45%;
     border: solid 2px #0f589c5e;
     background-color: rgb(247, 247, 247);
     border-radius: 10px;
@@ -124,12 +124,18 @@ label {
 .labels {
     display: flex;
     flex-direction: column;
+    
     width: 300px;
     font-weight: bold;
     margin-bottom: 5px;
     gap: 0.5rem;
 }
 
+#point{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
 
 
 #recebedor,
@@ -137,6 +143,7 @@ label {
 #email,
 #departamento,
 #discriminacao {
+
     width: 300px;
     border: 1px solid #CCCC;
     padding: 5px;
