@@ -62,7 +62,8 @@ nav ul li a:hover {
     width: 140px;
     float: left;
     padding-left: 10px;
-    padding: 5px;
+    padding: 7px;
+    cursor: wait;
 
 }
 
