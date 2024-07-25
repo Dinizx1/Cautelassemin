@@ -84,6 +84,7 @@ nav ul li a:hover {
     color: rgb(3, 3, 4);
     border: solid 2px rgb(255, 255, 255);
 
+
 }
 
 #texto {
@@ -117,6 +118,8 @@ label {
 select:hover {
     background-color: rgb(247, 247, 247);
     border: 1px sold #CCCC;
+    transform: translateY(-2px);
+    cursor: pointer;
 }
 
 .labels {
@@ -127,6 +130,7 @@ select:hover {
     font-weight: bold;
     gap: 0.5rem;
 }
+
 
 #point {
     display: flex;
@@ -156,6 +160,12 @@ textarea {
     border-radius: 5px;
 }
 
+textarea:hover {
+    transform: translateY(-3px);
+    background-color: rgb(247, 247, 247);
+    cursor: text;
+}
+
 .cautela {
     display: flex;
     flex-direction: row;
@@ -167,13 +177,9 @@ textarea {
     display: flex;
     flex-direction: column;
     padding: 15px;
-}
-
-
-textarea:hover {
-    background-color: rgb(247, 247, 247);
 
 }
+
 
 select {
     width: 100%;
@@ -221,6 +227,8 @@ select {
 input:hover {
     border: 1px solid white;
     background-color: rgb(247, 247, 247);
+    transform: translateY(-2px);
+    cursor: text;
 }
 
 
